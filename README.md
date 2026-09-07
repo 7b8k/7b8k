@@ -1,16 +1,14 @@
-## Hi there 👋
+# 7b8k — 墨水屏终端固件 FlaxOS · 独立开发者
 
-<!--
-**7b8k/7b8k** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+专注墨水屏终端生态。自研系统 **FlaxOS**（C / RT-Thread）已在 思澈 SF32LB525 设备实机迭代至 v1.4.0，语义化版本 + 发布流程管理。
 
-Here are some ideas to get you started:
+- 📇 [FlaxOS](仓库A链接)：
+  - 📇 知卡记忆卡 - 类 Anki 记忆卡（SM-2/IPA 音标/Anki 导入) · 🧩 数独（经典/杀手） · 🍅 番茄钟
+  - 🌤 联网天气 · 📁 文件管理 · 🔢 计算器 · 📅 日历
+- 📖 [Read/0 适配](仓库B链接)：ESP32-S3 墨水屏平台移植计划
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+▶️ 实机演示：[链接]
+
+架构：应用 / 系统服务 / 驱动 / 工具 模块化（移植友好）
+
+Roadmap：统一应用 API/事件总线 → SQLite 数据层 → MQTT 端云协同 → ESP32-S3 适配
